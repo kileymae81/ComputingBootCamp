@@ -221,7 +221,10 @@ You can also create a new matrix by using lines from previous matrix. The follow
 ### Try it
 
 Using the following matrix and the commands you just learned, find the following:
-- What are the index of all occurances of the value 2 (ANS: (1,1), (2,3), 3,4))
+```
+  try_it =  [ 2 1 4 3 ; 4 1 2 1 ; 1 3 4 2 ; 1 3 4 2 ]
+```
+- What are the index of all occurances of the value 2 (ANS: (1,1), (2,3), (3,4))
 - Sum of row 2 and 3 (ANS: [ 5 4 6 3 ])
 - Column 4 multiplied by the value in index (1,2) (ANS: [ 3 ; 1 ; 2 ])
 - Index (3,4) multiplied by the 2x2 matrix in the bottom right corner (ANS: [ 4 2 ; 8 4 ]) 
